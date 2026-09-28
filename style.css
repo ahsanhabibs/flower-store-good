@@ -120,3 +120,45 @@ header{
     cursor: pointer;
 }
 /* section 2 end */
+.section2 {
+    width: 90%;
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: linear-gradient(135deg, #fff7f8, #ffeef2);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.flower-box {
+    width: 30%;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.flower-box:hover {
+    transform: translateY(-8px);
+    background: #ffffff;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.imgg img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.pp {
+    margin-top: 15px;
+}
+
+.pp p {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 600;
+    color: #444;
+}
